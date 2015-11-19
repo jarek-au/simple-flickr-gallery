@@ -1,0 +1,101 @@
+body {
+    font-family: arial;
+    background: #eef8ee;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+    background: #000;
+    width: 92%;
+    padding: 1.3em 4%;
+    margin: 0 0 0.5em 0;
+    font-size: 2em;
+}
+#wrapper {
+    width: 60em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.error {
+    width: 92%;
+    margin: 1.3em 0;
+    padding: 1.3em 4%;
+    color: #c00000;
+    background: #ffe0e0;
+    border: 0.0625em solid #c00000;
+    border-radius: 0.6em;
+}
+.panel {
+    width: 96%;
+    margin: 0.6em 0;
+    padding: 1.3em 2%;
+    background-color: #eaeeea;
+    border: 0.125em outset #d6d6d6;
+    border-radius: 0.6em;
+    box-shadow: inset 0 0.125em 0.2em #aaaaaa;
+}
+.photos {
+    overflow: hidden;
+}
+.photos .photo {
+    display: block;
+    float: left;
+    width: 9.375em;
+    height: 9.375em;
+    margin-right: 0.2em;
+}
+input {
+    font-size: 1em;
+    letter-spacing: 0.0625em;
+    padding: 0 1%;
+    border: 0;
+    border-radius: 0.2em;
+    line-height: 1.6em;
+    height: 1.6em;
+    font-weight: bold;
+}
+input[type=text] {
+    width: 70%;
+}
+input[type=submit] {
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: #f3006f;
+    margin-left: 2%;
+    box-shadow: inset 0.375em 0.375em 0.2em #d70068;
+}
+
+.info {
+    margin: 0.6em 0;
+}
+.paginator {
+    overflow: hidden;
+    width: 100%;
+}
+.paginator .pages {
+    margin: 1em 0;
+    overflow: hidden;
+}
+.paginator a, .paginator span {
+    display: block;
+    float: left;
+    color: #333;
+    text-decoration: none;
+    padding: 0.2em 0.5em;
+    margin: 0.1em;
+    border-radius: 0.2em;
+}
+.paginator a {
+    background: #dddddd;
+}
+.paginator span {
+    font-weight: bold;
+}
+.paginator a:hover {
+    color: #c00000; 
+    background: #ffffff;
+}
